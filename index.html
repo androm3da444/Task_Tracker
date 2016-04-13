@@ -1,0 +1,70 @@
+<!-- @Kapil Varunshri
+Task Tracker Web Application v2.0 -->
+
+<!DOCTYPE html>
+
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Task Tracker<small>v2.0</small></h1>
+        </header>
+        <section class='main-section'>
+            <section class='col-right'>
+                <h2><b>Existing Tasks</b></h2>
+                <div class='table-container'>
+                    <table class='task-container'>
+                    </table>
+                </div>
+            </section>
+
+            <section class='col-left'>
+                <form>
+                    <h2><b>Create a Task</b></h2>
+                    <ul>
+                        <li>
+                            <label>
+                                <b>Task Name</b><br>
+                                <input type='text' name='name' value='' placeholder='Create Task tracker'/>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <b>Date</b><br>
+                                <input type='text' name='date' value='' placeholder='04/10/2016'/>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <b>Assigned To</b><br>
+                                <input type='text' name='assigned' value='' placeholder='Kapil Varunshri'/>
+                            </label>
+                        </li>
+                    </ul>
+                    <button type='submit'>Submit</button>
+                </form>
+            </section>
+
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+        <script src="js/add-plugins.js"></script>
+        <script src="js/jquery.taskTracker.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
